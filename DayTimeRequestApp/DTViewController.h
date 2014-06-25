@@ -10,4 +10,11 @@
 
 @interface DTViewController : UIViewController
 
+- (IBAction)dismissKeyboardOnReturn:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UITextField *hostNameLabel;
+
+- (IBAction)sendTimeRequest:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UITextView *displayTheTimeResponse;
 @end
